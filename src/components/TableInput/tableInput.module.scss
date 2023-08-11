@@ -1,0 +1,30 @@
+.input{
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+
+    border: 0;
+    border-radius: 4px;
+    background-color: transparent;
+
+    &:focus{
+        outline: none;
+    }
+
+    @media screen and (max-width: 630px) {
+        width: 50px;
+    }
+    @media screen and (max-width: 360px) {
+        width: 20px;
+    }
+}
+
+.invalid{
+    color: brown;
+    box-shadow: inset 1px 1px 3px brown;
+}
+
+.valie{
+    color: black;
+}
+

@@ -1,0 +1,30 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 11px;
+
+
+}
+
+.active{
+    border: 1px solid black;
+
+    &:active{
+        box-shadow: inset -1px -1px 2px gray;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.disabled{
+    border: 1px solid gray;
+}

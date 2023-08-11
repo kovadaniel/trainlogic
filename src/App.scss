@@ -1,0 +1,22 @@
+@import './constants/variables.scss';
+
+*{
+  box-sizing: border-box;
+}
+html, body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: $custom-grey;
+
+}
+
+#trains-page, #single-train-page{
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px 56px;
+
+}

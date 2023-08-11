@@ -1,0 +1,14 @@
+@import '../../constants/variables.scss';
+
+.cell{
+    padding: 14.5px 16px;
+
+    font-size: 11px;
+    line-height: 20px;
+
+    border-bottom: 2px solid $custom-grey;
+
+    &:hover{
+        cursor: pointer;
+    }
+}

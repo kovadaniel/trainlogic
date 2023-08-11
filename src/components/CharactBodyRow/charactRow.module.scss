@@ -1,0 +1,9 @@
+@import '../../constants/variables.scss';
+
+.cell{
+    padding: 14.5px 16px;
+    width: calc(100% / 3);
+
+    text-align: center;
+    border-top: 2px solid $custom-grey;
+}

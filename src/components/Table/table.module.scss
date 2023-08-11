@@ -1,0 +1,44 @@
+@import '../../constants/variables.scss';
+
+.container{
+    display: flex;
+
+    width: 100%;
+    margin: 14px auto;
+
+    background-color: #fff;
+    border-radius: 9px;
+
+    .table{
+        width: 100%;
+        padding: 0 25px 30px;
+        border-spacing: 0;
+
+        .title{
+            margin: 0px 25px 5px;
+            padding: 0 16px;
+
+            text-align: left;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 20px;
+
+            &:first-child{
+                margin-top: 27px;
+            }
+
+            &:last-child{
+                background-color: red;
+                margin-bottom: 11px;
+            }
+        }
+    }
+}
+
+.small{
+    max-width: 430px;
+}
+
+.large{
+    max-width: 896px;
+}

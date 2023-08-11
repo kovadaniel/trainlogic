@@ -1,0 +1,12 @@
+@import '../../constants/variables.scss';
+
+.cell{
+    padding: 14px 16px;
+    
+    color: $custom-title-color;
+    background-color: $custom-grey;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 11px;
+    text-align: left;
+}
